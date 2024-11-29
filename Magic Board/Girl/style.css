@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('../Girl/3524a4dd3ec24e76321342f2ed06be8e.jpg'); /* Change to a girly background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.toolbar input, .toolbar select, .toolbar button {
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+canvas {
+  display: block;
+  width: 800px;
+  height: 400px;
+  margin: 10px auto;
+  border: 2px solid hotpink; /* Changed to hot pink border */
+  border-radius: 5%;
+  background-color: white;
+  cursor: crosshair;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.color-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 0 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.color-button:hover {
+  transform: scale(1.1); 
+}
+
+/* Hide the default color input */
+#colorPicker {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  margin: 5px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+#colorPicker::-webkit-color-swatch {
+  border: none;
+  border-radius: 5px;
+}
+
+#colorPicker::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+#lineWidth {
+  background-color: pink; /* Changed to pink */
+  border: 3px solid hotpink; /* Changed to hot pink border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+#eraser {
+  background-color: pink; /* Changed to pink */
+  border: 3px solid hotpink; /* Changed to hot pink border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#eraser:hover {
+  background-color: hotpink;
+  color: white;
+  transform: scale(1.1); /* Add a slight hover effect */
+}
+#clear {
+  background-color: pink; /* Changed to pink */
+  border: 3px solid hotpink; /* Changed to hot pink border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#clear:hover {
+  background-color: hotpink;
+  color: white;
+  transform: scale(1.1); /* Add a slight hover effect */
+}
+#save {
+  background-color: pink; /* Changed to pink */
+  border: 3px solid hotpink; /* Changed to hot pink border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#save:hover {
+  background-color: hotpink;
+  color: white;
+  transform: scale(1.1); /* Add a slight hover effect */
+}
+#share {
+  background-color: pink; /* Changed to pink */
+  border: 3px solid hotpink; /* Changed to hot pink border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#share:hover {
+  background-color: hotpink;
+  color: white;
+  transform: scale(1.1); /* Add a slight hover effect */
+}
+#back {
+  background-color: pink; /* Same as other buttons */
+  border: 3px solid hotpink; /* Same hot pink border */
+  border-radius: 10px; /* Same rounded corners */
+  align-items: center;
+  text-align: center;
+  padding: 10px; /* Ensure consistent padding */
+  font-size: 16px; /* Match the font size of other buttons */
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+/* Add hover effect for the Back button */
+#back:hover {
+  background-color: hotpink;
+  color: white;
+  transform: scale(1.1); /* Add a slight hover effect */
+}

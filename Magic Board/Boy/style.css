@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('../Boy/f6660924d85b7b00a121c74d7bc1dc25.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.toolbar input, .toolbar select, .toolbar button {
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+canvas {
+  display: block;
+  width: 800px;
+  height: 400px;
+  margin: 10px auto;
+  border: 2px solid blue; /* Changed to blue border */
+  border-radius: 5%;
+  background-color: white;
+  cursor: crosshair;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.color-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 0 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.color-button:hover {
+  transform: scale(1.1); 
+}
+
+/* Hide the default color input */
+#colorPicker {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  margin: 5px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+#colorPicker::-webkit-color-swatch {
+  border: none;
+  border-radius: 5px;
+}
+
+#colorPicker::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+#lineWidth {
+  background-color: lightblue; /* Changed to light blue */
+  border: 3px solid skyblue; /* Changed to sky blue border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+#eraser {
+  background-color: lightblue; /* Changed to light blue */
+  border: 3px solid skyblue; /* Changed to sky blue border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#eraser:hover {
+  background-color: skyblue; /* Darker blue for hover */
+  color: white; /* White text for contrast */
+  transform: scale(1.1); /* Slight hover effect */
+}
+#clear {
+  background-color: lightblue; /* Changed to light blue */
+  border: 3px solid skyblue; /* Changed to sky blue border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#clear:hover {
+  background-color: skyblue; /* Darker blue for hover */
+  color: white; /* White text for contrast */
+  transform: scale(1.1); /* Slight hover effect */
+}
+#save {
+  background-color: lightblue; /* Changed to light blue */
+  border: 3px solid skyblue; /* Changed to sky blue border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#save:hover {
+  background-color: skyblue; /* Darker blue for hover */
+  color: white; /* White text for contrast */
+  transform: scale(1.1); /* Slight hover effect */
+}
+#share {
+  background-color: lightblue; /* Changed to light blue */
+  border: 3px solid skyblue; /* Changed to sky blue border */
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+#share:hover {
+  background-color: skyblue; /* Darker blue for hover */
+  color: white; /* White text for contrast */
+  transform: scale(1.1); /* Slight hover effect */
+}
+
+
+#back {
+  background-color: lightblue; /* Same as other buttons */
+  border: 3px solid skyblue; /* Same sky blue border */
+  border-radius: 10px; /* Same rounded corners */
+  align-items: center;
+  text-align: center;
+  padding: 10px; /* Consistent padding */
+  font-size: 16px; /* Match font size of other buttons */
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+/* Add hover effect for the Back button */
+#back:hover {
+  background-color: skyblue; /* Darker blue for hover */
+  color: white; /* White text for contrast */
+  transform: scale(1.1); /* Slight hover effect */
+}
+
+
+
